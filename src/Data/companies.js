@@ -35,7 +35,9 @@ import logo39 from "../Resourses/Logos/VR Travel.png";
 import logo40 from "../Resourses/Logos/Kirklarsen.png";
 import logo41 from "../Resourses/Logos/2022_Sermeq_Helicopters_A_S.png";
 import logo42 from "../Resourses/Logos/60NGreenland.png";
-import logo43 from "../Resourses/Logos/2025_EMJ.png"
+import logo43 from "../Resourses/Logos/2025_EMJ.png";
+import logo45 from "../Resourses/Logos/arcticulture.png";
+import logo46 from "../Resourses/Logos/arcticulture.png";
 
 //PDFS
 import pdf1 from "../Resourses/PDFs/2025_Nuna.pdf";
