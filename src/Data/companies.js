@@ -136,15 +136,6 @@ export const companies = [
     id: 7
   },
   {
-    name: "Flies HR Consulting",
-    logo: logo8,
-    website: "https://FliesHR.gl/",
-    pdf: pdf8,
-    type: "withmail",
-    email: `mail@flieshr.dk?subject=PDAC ${getYear()}`,
-    id: 8
-  },
-  {
     name: "Greenland Travel",
     logo: logo9,
     website: "https://www.greenland-travel.com",
@@ -172,12 +163,12 @@ export const companies = [
     id: 11
   },
   {
-    name: "Nordic Camp Supply",
+    name: "COWI",
     logo: logo12,
-    website: "https://www.ncsfuel.com/",
+    website: "https://www.cowi.com/",
     pdf: pdf12,
     type: "withmail",
-    email: `sales@ncsfuel.com?subject=PDAC ${getYear()}`,
+    email: `?subject=PDAC ${getYear()}`,
     id: 12
   },
   {
@@ -188,15 +179,6 @@ export const companies = [
     type: "withmail",
     email: `info@greenlandresourcesinc.com?subject=PDAC ${getYear()}`,
     id: 13
-  },
-  {
-    name: "KNI A/S Polaroil",
-    logo: logo14,
-    website: "https://kni.gl/en/polaroil/",
-    pdf: null,
-    type: "withmail",
-    email: `niz@kni.gl?subject=PDAC ${getYear()}`,
-    id: 14
   },
   {
     name: "Bdo Statsautoriseret Revisionsaktieselskab",
@@ -215,15 +197,6 @@ export const companies = [
     type: "withmail",
     email: `bent@lumina.gl?subject=PDAC ${getYear()}`,
     id: 17
-  },
-  {
-    name: "Malik Supply A/S",
-    logo: logo18,
-    website: "https://maliksupply.com/",
-    pdf: null,
-    type: "withmail",
-    email: `sales@malik.dk?subject=PDAC ${getYear()}`,
-    id: 18
   },
   {
     name: "Pangaea Logistics Solutions A/S",
@@ -405,5 +378,33 @@ export const companies = [
     email: `?subject=PDAC ${getYear()}`,
     id: 43
   },
+  {
+    name: "APM Terminals - Aarhus A/S",
+    logo: logo44,
+    website: "https://www.apmterminals.com/en/aarhus",
+    pdf: pdf44,
+    type: "withmail",
+    email: `?subject=PDAC ${getYear()}`,
+    id: 44
+  },
+  {
+    name: "Arcticulture",
+    logo: logo45,
+    website: "https://arcticulture.com/",
+    pdf: pdf45,
+    type: "withmail",
+    email: `?subject=PDAC ${getYear()}`,
+    id: 45
+  },
+  {
+    name: "Greenland Copter",
+    logo: logo46,
+    website: "https://www.greenlandcopter.com/",
+    pdf: pdf46,
+    type: "withmail",
+    email: `?subject=PDAC ${getYear()}`,
+    id: 46
+  },
+
 
 ];
