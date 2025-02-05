@@ -1,5 +1,5 @@
 //LOGOS
-import logo1 from "../Resourses/Logos/Airland_Logistics.png";
+import logo1 from "../Resourses/Logos/2025_Nunagreen.png";
 import logo2 from "../Resourses/Logos/Air_Greenland.png";
 import logo4 from "../Resourses/Logos/2022_Arctic_Import.png";
 import logo3 from "../Resourses/Logos/Arctic_Law.png";
@@ -24,7 +24,7 @@ import logo26 from "../Resourses/Logos/Nuna_Law.png";
 import logo28 from "../Resourses/Logos/2022_Rambøll_Grønland_A_S.png";
 import logo29 from "../Resourses/Logos/UP_Front_Communication_GR.png";
 import logo30 from "../Resourses/Logos/Sikuki_Nuuk_Harbour.png";
-import logo31 from "../Resourses/Logos/2022_Boman_Qujan.png";
+import logo31 from "../Resourses/Logos/2025_BMS.png";
 import logo33 from "../Resourses/Logos/2022_Royal_Arctic_Line_A_S.png";
 import logo34 from "../Resourses/Logos/Kommuneqarfik_Sermersooq.png";
 import logo35 from "../Resourses/Logos/KalaallitForsikring.png";
@@ -34,47 +34,51 @@ import logo38 from "../Resourses/Logos/Tusass.png";
 import logo39 from "../Resourses/Logos/VR Travel.png";
 import logo40 from "../Resourses/Logos/Kirklarsen.png";
 import logo41 from "../Resourses/Logos/2022_Sermeq_Helicopters_A_S.png";
+import logo42 from "../Resourses/Logos/60NGreenland.png";
+import logo43 from "../Resourses/Logos/2025_EMJ.png"
 
 //PDFS
-import pdf1 from "../Resourses/PDFs/Airland_Logistics.pdf";
+import pdf1 from "../Resourses/PDFs/2025_Nuna.pdf";
 import pdf2 from "../Resourses/PDFs/Air_Greenland.pdf";
 import pdf3 from "../Resourses/PDFs/Arctic_Law.jpg";
-import pdf4 from "../Resourses/PDFs/Arctic_Import.pdf";
+import pdf4 from "../Resourses/PDFs/2025_Arctic_Import.pdf";
 import pdf5 from "../Resourses/PDFs/Gorrissen_Federspiel.pdf";
-import pdf6 from "../Resourses/PDFs/Blue_Water_Shipping.pdf";
+import pdf6 from "../Resourses/PDFs/2025_Mining_BWS.pdf";
 import pdf9 from "../Resourses/PDFs/Greenland_Travel.pdf";
 import pdf8 from "../Resourses/PDFs/Flies_HR.pdf";
-import pdf10 from "../Resourses/PDFs/Illit_Forsikringit.pdf";
+import pdf10 from "../Resourses/PDFs/2025_Illit_Forsikringit.pdf";
 import pdf12 from "../Resourses/PDFs/Nordic_Camp_Supply.pdf";
 import pdf13 from "../Resourses/PDFs/Greenland_Resources.pdf";                                                  
-import pdf16 from "../Resourses/PDFs/BDO.pdf";
+import pdf16 from "../Resourses/PDFs/2025_BDO.pdf";
 import pdf17 from "../Resourses/PDFs/Lumina.pdf";
-import pdf20 from "../Resourses/PDFs/North_Water_Greenland.pdf"; 
+import pdf20 from "../Resourses/PDFs/2025_North_Water_Greenland.pdf"; 
 import pdf21 from "../Resourses/PDFs/QBC.pdf";
 import pdf26 from "../Resourses/PDFs/Nuna_Law_Firm.pdf";
 import pdf29 from "../Resourses/PDFs/UP_Front_Greenland.pdf";
 import pdf30 from "../Resourses/PDFs/Sikuki.pdf";
-import pdf31 from "../Resourses/PDFs/BomanQujan.pdf";
+import pdf31 from "../Resourses/PDFs/2025_BMS_Magasin.pdf";
 import pdf34 from "../Resourses/PDFs/Kommuneqarfik_Sermersooq.pdf";
-import pdf35 from "../Resourses/PDFs/Kalaallit_Forsikring.pdf";
-import pdf36 from "../Resourses/PDFs/Greenland_Business_Association_(GE).pdf";
+import pdf35 from "../Resourses/PDFs/2025_Kalaallit_Forsikring.pdf";
+import pdf36 from "../Resourses/PDFs/2025_Greenland_Business_Association_(GE).pdf";
 import pdf37 from "../Resourses/PDFs/Nalik_Venture.pdf";
 import pdf38 from "../Resourses/PDFs/Tusass.pdf";
 import pdf39 from "../Resourses/PDFs/VR_Travel.pdf";
 import pdf40 from "../Resourses/PDFs/Kirk_Larsen.pdf";
-import pdf41 from "../Resourses/PDFs/Sermeq_Helicopters.pdf";
+import pdf41 from "../Resourses/PDFs/2025_Sermeq_Helicopters.pdf";
+import pdf42 from "../Resourses/PDFs/2025_60N.pdf";
+import pdf43 from "../Resourses/PDFs/2025_EMJ.pdf";
 import { getYear } from "../utils";
 
  
 
 export const companies = [
   {
-    name: "Airland Logistics A/S",
+    name: "Nuna Green",
     logo: logo1,
-    website: "https://www.airlandlogistics.com",
+    website: "https://nunagreen.com",
     pdf: pdf1,
     type: "withmail",
-    email: `mebdrup@airlandlogistics.com?subject=PDAC ${getYear()}`,
+    email: `?subject=PDAC ${getYear()}`,
     id: 1
   },
   {
@@ -294,12 +298,12 @@ export const companies = [
     id: 30
   },
   {
-    name: "Boman Qujan'",
+    name: "BMS",
     logo: logo31,
-    website: "https://www.pr-network.biz/prnetwork/boman-qujan/",
+    website: "https://bms.dk",
     pdf: pdf31,
     type: "withmail",
-    email: `jb@boman.dk?subject=PDAC ${getYear()}`,
+    email: `sikuki@sikuki.gl?subject=PDAC ${getYear()}`,
     id: 31
   },
   {
@@ -375,13 +379,31 @@ export const companies = [
     id: 40
   },
   {
-    name: "Sermeq Helicopters A/S",
+    name: "Sermeq Helicopers",
     logo: logo41,
-    website: "https://www.sermeqhelicopters.gl/",
+    website: "https://www.sermeqhelicopters.gl",
     pdf: pdf41,
     type: "withmail",
     email: `info@helicopter.gl?subject=PDAC ${getYear()}`,
     id: 41
+  },
+  {
+    name: "60 North Greenland",
+    logo: logo42,
+    website: "https://www.60north.gl/en/",
+    pdf: pdf42,
+    type: "withmail",
+    email: `?subject=PDAC ${getYear()}`,
+    id: 42
+  },
+  {
+    name: "EMJ-ATCON",
+    logo: logo43,
+    website: "https://www.emj-atcon.gl",
+    pdf: pdf43,
+    type: "withmail",
+    email: `?subject=PDAC ${getYear()}`,
+    id: 43
   },
 
 ];
