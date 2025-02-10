@@ -6,16 +6,16 @@ import logo3 from "../Resourses/Logos/Arctic_Law.png";
 import logo5 from "../Resourses/Logos/2022_Gorrissen_Federspie.png";
 import logo6 from "../Resourses/Logos/bws_shipping.png";
 import logo7 from "../Resourses/Logos/Danish_Industry.png";
-import logo8 from "../Resourses/Logos/Flies_HR.png";
+import logo8 from "../Resourses/Logos/greenlandcopter.png";
 import logo9 from "../Resourses/Logos/Greenland_Travel.png";
 import logo10 from "../Resourses/Logos/Illit_Forsikringit_Logo.png";
 import logo11 from "../Resourses/Logos/2022_Trade_Council.png";
-import logo12 from "../Resourses/Logos/NCS.png";
+import logo12 from "../Resourses/Logos/logo_Cowi.png";
 import logo13 from "../Resourses/Logos/Greenland_Resources.png";
-import logo14 from "../Resourses/Logos/KNI_Polaroil.png";
+import logo14 from "../Resourses/Logos/apm.png";
 import logo16 from "../Resourses/Logos/BDO.png";
 import logo17 from "../Resourses/Logos/2022_Lumina_Sustainable_Materials_A_S.png";
-import logo18 from "../Resourses/Logos/Malik_Supply.png";
+import logo18 from "../Resourses/Logos/arcticulture.png";
 import logo19 from "../Resourses/Logos/Pangaea.png";
 import logo20 from "../Resourses/Logos/North_Water.png";
 import logo21 from "../Resourses/Logos/QBC.png";
@@ -36,20 +36,17 @@ import logo40 from "../Resourses/Logos/Kirklarsen.png";
 import logo41 from "../Resourses/Logos/2022_Sermeq_Helicopters_A_S.png";
 import logo42 from "../Resourses/Logos/60NGreenland.png";
 import logo43 from "../Resourses/Logos/2025_EMJ.png";
-import logo45 from "../Resourses/Logos/arcticulture.png";
-import logo46 from "../Resourses/Logos/arcticulture.png";
 
 //PDFS
 import pdf1 from "../Resourses/PDFs/2025_Nuna.pdf";
 import pdf2 from "../Resourses/PDFs/Air_Greenland.pdf";
 import pdf3 from "../Resourses/PDFs/Arctic_Law.jpg";
 import pdf4 from "../Resourses/PDFs/2025_Arctic_Import.pdf";
-import pdf5 from "../Resourses/PDFs/Gorrissen_Federspiel.pdf";
+import pdf5 from "../Resourses/PDFs/2025_Gorrissen_Federspiel.pdf";
 import pdf6 from "../Resourses/PDFs/2025_Mining_BWS.pdf";
 import pdf9 from "../Resourses/PDFs/Greenland_Travel.pdf";
-import pdf8 from "../Resourses/PDFs/Flies_HR.pdf";
 import pdf10 from "../Resourses/PDFs/2025_Illit_Forsikringit.pdf";
-import pdf12 from "../Resourses/PDFs/Nordic_Camp_Supply.pdf";
+import pdf12 from "../Resourses/PDFs/COWI_in_Greenland.pdf";
 import pdf13 from "../Resourses/PDFs/Greenland_Resources.pdf";                                                  
 import pdf16 from "../Resourses/PDFs/2025_BDO.pdf";
 import pdf17 from "../Resourses/PDFs/Lumina.pdf";
@@ -138,6 +135,15 @@ export const companies = [
     id: 7
   },
   {
+    name: "Greenlandcopter",
+    logo: logo8,
+    website: "https://www.greenlandcopter.com",
+    pdf: null,
+    type: "withmail",
+    email: `?subject=PDAC ${getYear()}`,
+    id: 7
+  },
+  {
     name: "Greenland Travel",
     logo: logo9,
     website: "https://www.greenland-travel.com",
@@ -183,6 +189,15 @@ export const companies = [
     id: 13
   },
   {
+    name: "APM Terminals",
+    logo: logo14,
+    website: "https://www.apmterminals.com",
+    pdf: null,
+    type: "withmail",
+    email: `info@greenlandresourcesinc.com?subject=PDAC ${getYear()}`,
+    id: 13
+  },
+  {
     name: "Bdo Statsautoriseret Revisionsaktieselskab",
     logo: logo16,
     website: "https://www.bdo.global/en-gb/home",
@@ -198,6 +213,15 @@ export const companies = [
     pdf: pdf17,
     type: "withmail",
     email: `bent@lumina.gl?subject=PDAC ${getYear()}`,
+    id: 17
+  },
+  {
+    name: "Arcticulture",
+    logo: logo18,
+    website: "https://arcticulture.com",
+    pdf: null,
+    type: "withmail",
+    email: `?subject=PDAC ${getYear()}`,
     id: 17
   },
   {
@@ -219,7 +243,7 @@ export const companies = [
     id: 20
   },
   {
-    name: "Qeqertalik Business Council A/S",
+    name: "",
     logo: logo21,
     website: "http://www.qbc.gl",
     pdf: pdf21,
@@ -327,7 +351,7 @@ export const companies = [
     id: 37
   },
   {
-    name: "Tusass Danmark",
+    name: "Tusass",
     logo: logo38,
     website: "https://www.tusass.gl/en/",
     pdf: pdf38,
@@ -368,7 +392,7 @@ export const companies = [
     website: "https://www.60north.gl/en/",
     pdf: pdf42,
     type: "withmail",
-    email: `?subject=PDAC ${getYear()}`,
+    email: `rasmus@60north.gl?subject=PDAC ${getYear()}`,
     id: 42
   },
   {
@@ -379,33 +403,6 @@ export const companies = [
     type: "withmail",
     email: `?subject=PDAC ${getYear()}`,
     id: 43
-  },
-  {
-    name: "APM Terminals - Aarhus A/S",
-    logo: logo44,
-    website: "https://www.apmterminals.com/en/aarhus",
-    pdf: pdf44,
-    type: "withmail",
-    email: `?subject=PDAC ${getYear()}`,
-    id: 44
-  },
-  {
-    name: "Arcticulture",
-    logo: logo45,
-    website: "https://arcticulture.com/",
-    pdf: pdf45,
-    type: "withmail",
-    email: `?subject=PDAC ${getYear()}`,
-    id: 45
-  },
-  {
-    name: "Greenland Copter",
-    logo: logo46,
-    website: "https://www.greenlandcopter.com/",
-    pdf: pdf46,
-    type: "withmail",
-    email: `?subject=PDAC ${getYear()}`,
-    id: 46
   },
 
 
